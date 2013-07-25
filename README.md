@@ -3,6 +3,16 @@ django-sandbox
 
 A simple Django sandbox leveraging importd.
 
+Quick Setup
+-----------
+
+After cloning the project, the following commands will get a
+development server up and running.
+
+    virtualenv --distribute .
+    . bin/activate
+    ./server
+
 Usage
 -----
 
