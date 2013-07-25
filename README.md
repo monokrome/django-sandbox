@@ -16,10 +16,10 @@ up and running.
     
     # Install project dependencies and sync the database
     pip install -r requirements.txt
-    ./server syncdb
+    ./server.py syncdb
 
-    # Run a [Django][dj] development server.
-    ./server
+    # Run a [Django][dj] development server.py.
+    ./server.py
 
 Usage
 -----
@@ -44,17 +44,17 @@ dependencies for this repository:
 After these are installed, you will want to do some initial
 setup.
 
-    ./server syncdb
+    ./server.py syncdb
 
 Now, you can run a [Django][dj] development server with ease:
 
-    ./server
+    ./server.py
 
 The `server` executable also acts as manage.py. This allows you to use any
 installed [Django][dj] management commands with it. To see a list of available
 management commands, you can use the following command:
 
-    ./server help
+    ./server.py help
 
 [d]: http://pythonhosted.org/importd/ "importd"
 [dj]: http://djangoproject.com/ "Django"
