@@ -1,7 +1,7 @@
 django-sandbox
 ==============
 
-A simple Django sandbox leveraging importd.
+A simple Django sandbox leveraging [importd][d].
 
 Quick Setup
 -----------
@@ -55,3 +55,6 @@ installed Django management commands with it. To see a list of available
 management commands, you can use the following command:
 
     ./server help
+
+[d]: http://pythonhosted.org/importd/ "importd"
+
