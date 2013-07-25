@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 
 from importd import d
+import json
+import sys
+
+
+sys.stdout.write('Loading settings.json... ')
+settings = json.loads(open('./settings.json', 'r').read())
+print('Done.')
+
+d(**settings)
 
 @d('/')
 def index(request):
