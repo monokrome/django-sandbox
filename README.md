@@ -9,8 +9,16 @@ Quick Setup
 After cloning the project, the following commands will get a
 development server up and running.
 
+    # Set up a virtualenv. You can use virtualenvwrapper
+    # if you prefer to.
     virtualenv --distribute .
     . bin/activate
+    
+    # Install project dependencies and sync the database
+    pip install -r requirements.txt
+    ./server syncdb
+
+    # Run a Django development server.
     ./server
 
 Usage
