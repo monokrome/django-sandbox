@@ -1,7 +1,7 @@
 django-sandbox
 ==============
 
-A simple Django sandbox leveraging [importd][d].
+A simple [Django][dj] sandbox leveraging [importd][d].
 
 Quick Setup
 -----------
@@ -18,7 +18,7 @@ up and running.
     pip install -r requirements.txt
     ./server syncdb
 
-    # Run a Django development server.
+    # Run a [Django][dj] development server.
     ./server
 
 Usage
@@ -46,15 +46,16 @@ setup.
 
     ./server syncdb
 
-Now, you can run a Django development server with ease:
+Now, you can run a [Django][dj] development server with ease:
 
     ./server
 
 The `server` executable also acts as manage.py. This allows you to use any
-installed Django management commands with it. To see a list of available
+installed [Django][dj] management commands with it. To see a list of available
 management commands, you can use the following command:
 
     ./server help
 
 [d]: http://pythonhosted.org/importd/ "importd"
+[dj]: http://djangoproject.com/ "Django"
 
