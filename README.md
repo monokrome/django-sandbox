@@ -51,3 +51,10 @@ Now, you can run a Django development server with ease:
 
     ./server
 
+You can add any Django settings as you wish to `settings.json`,
+and the `server` executable also acts as manage.py. This allows
+you to use any installed Django management commands with it. To
+see a list of available management commands, you can use the
+following command:
+
+    ./server help
