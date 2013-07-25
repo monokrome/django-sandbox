@@ -50,6 +50,14 @@ Now, you can run a [Django][dj] development server with ease:
 
     ./server.py
 
+If you'd prefer to run a production-ready server with two workers, you can use
+this command:
+
+    gunicorn -w 2 server:d
+
+You could also change the 2 to any other number if you wanted a different
+number of workers, of course.
+
 The `server` executable also acts as manage.py. This allows you to use any
 installed [Django][dj] management commands with it. To see a list of available
 management commands, you can use the following command:
