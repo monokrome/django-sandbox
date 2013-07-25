@@ -31,5 +31,5 @@ setup.
 
 Now, you can run a Django development server with ease:
 
-  ./server
+    ./server
 
