@@ -13,3 +13,7 @@ d(**settings.defaults)
 @d('/')
 def index(request):
   return d.HttpResponse('Hello, world.')
+
+if __name__ == '__main__':
+  d.main()
+
